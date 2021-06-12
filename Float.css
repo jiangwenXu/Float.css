@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.logo {
+  display: inline-block;
+  float: left;
+  margin-top: 11px;
+  margin-left: 10px;
+}
+.logo > img {
+  height: 20px;
+  vertical-align: top;
+}
+.nav {
+  float: right;
+  margin-left: 20px;
+}
+ul > li {
+  float: left;
+  padding: 4px 0.5em;
+  line-height: 32px;
+}
+ul {
+  display: inline-block;
+}
+header {
+  background: grey;
+  color: white;
+}
+.content {
+  outline: 1px solid red;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.content > aside {
+  border: 1px solid blue;
+  width: 200px;
+  height: 300px;
+  float: left;
+}
+.content > main {
+  border: 1px solid green;
+  height: 300px;
+  width: 400px;
+  float: left;
+}
+.content > .ad {
+  border: 1px solid purple;
+  height: 300px;
+  width: 100px;
+  float: left;
+}
+.imagelist {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.imagelist > .x > .image {
+  width: 166px;
+  height: 166px;
+  border: 1px solid red;
+  float: left;
+
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+.imagelist > .x {
+  margin-right: -12px;
+}
